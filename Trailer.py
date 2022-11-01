@@ -9,13 +9,7 @@ try:
     import platform
     from os import system
     from time import sleep
-    import requests
-    import json as js
-    import requests
-    import webbrowser
     from googlesearch import search
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
 except ImportError as imp:
     print("[!] WARNING: Not all packages used in this program have been installed !")
     sleep(2)
